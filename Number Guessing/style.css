@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box01,
+.box02,
+.box03,
+.box04,
+.box05 {
+    padding: 50px;
+    border-radius: 20px;
+    background-color: rgba(221, 207, 209, 0.749);
+    display: none;
+    flex-direction: column;
+    row-gap: 18px;
+}
+
+.box01 {
+    display: flex;
+}
+
+button {
+    padding: 5px;
+    background-color: aqua;
+    border: 0px;
+}
+
+.myinput {
+    position: relative;
+}
+
+.myinput p {
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    color: red;
+    font-size: 10px;
+}
