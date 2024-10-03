@@ -18,7 +18,7 @@ body {
 .box05 {
     padding: 50px;
     border-radius: 20px;
-    background-color: rgba(221, 207, 209, 0.749);
+    background-color: rgba(187, 238, 200, 0.749);
     display: none;
     flex-direction: column;
     row-gap: 18px;
@@ -30,7 +30,7 @@ body {
 
 button {
     padding: 5px;
-    background-color: aqua;
+    background-color: rgb(151, 207, 237);
     border: 0px;
 }
 
