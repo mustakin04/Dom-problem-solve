@@ -1,6 +1,7 @@
 let myinput =document.querySelector(".input");
 let mybutton= document.querySelector(".button");
 let myul=document.querySelector(".ul");
+let mydeletedall=document.querySelector(".deletedall");
 mybutton.addEventListener("click",function(){
     let result=myinput.value;
     let li=document.createElement("li");
@@ -28,4 +29,7 @@ myul.addEventListener("click",function(m){
             m.target.parentElement.remove();
         }
     }
+})
+mydeletedall.addEventListener("click",function(){
+    myul.innerHTML='';
 })
